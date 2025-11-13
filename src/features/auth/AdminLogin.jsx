@@ -1,6 +1,6 @@
 import { Formik } from "formik";
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
-import { NavLink, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import * as Yup from "yup";
 import { useLoginUserMutation } from "./authApi";
 import { toast } from "react-hot-toast";

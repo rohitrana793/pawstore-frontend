@@ -1,10 +1,4 @@
-import {
-  Card,
-  IconButton,
-  Typography,
-  Tooltip,
-  Button,
-} from "@material-tailwind/react";
+import { Card, Typography } from "@material-tailwind/react";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { useGetSubscribersQuery } from "../../subscribe/subscriberApi";
