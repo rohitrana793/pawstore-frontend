@@ -36,7 +36,7 @@ const updateBreedSchema = Yup.object({
           "image/jpg",
           "image/webp",
           "image/gif",
-        ].includes(val.type)
+        ].includes(val.type),
     ),
 });
 
@@ -99,7 +99,7 @@ export default function UpdateBreed() {
               nav("/admin-page/breed");
             } catch (err) {
               toast.error(
-                err?.data?.message || err.message || "Failed to update breed"
+                err?.data?.message || err.message || "Failed to update breed",
               );
             }
           }}

@@ -47,7 +47,7 @@ export default function Login() {
               }
             } catch (err) {
               toast.error(
-                err?.data?.message || err.message || "Failed to login"
+                err?.data?.message || err.message || "Failed to login",
               );
             }
           }}
